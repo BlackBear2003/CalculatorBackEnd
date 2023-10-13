@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:mysql://luke.host:3306/Calculator?characterEncoding=utf8
     username: root
-    password: onelastkiss
+    password:
   jpa:
     show-sql: true
     hibernate:
