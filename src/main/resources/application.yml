@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Calculator
+  datasource:
+    url: jdbc:mysql://luke.host:3306/Calculator?characterEncoding=utf8
+    username: root
+    password: onelastkiss
+  jpa:
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
